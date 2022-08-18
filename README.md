@@ -1,4 +1,4 @@
-# Клеточный автомат "Жизнь"
+# Game of Life
 
 ## Алгоритм выполнения
 1. Необходимо реализовать клеточный автомат - игру "Жизнь" https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Rules.
