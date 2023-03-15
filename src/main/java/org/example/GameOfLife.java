@@ -150,7 +150,7 @@ public class GameOfLife {
         try (FileWriter writer = new FileWriter("src/test/resources/" + output)) {
             for (int i = 0; i < arr.length; i++) {
                 for (int j = 0; j < arr[0].length; j++) {
-                    if (arr[0][j].isAlive()) {
+                    if (arr[i][j].isAlive()) {
                         writer.write("X");
                         if (j != arr[0].length - 1) {
                             writer.write(" ");
