@@ -14,4 +14,9 @@ public class Cell {
     public void setAlive(boolean isAlive) {
         this.isAlive = isAlive;
     }
+
+    @Override
+    public String toString() {
+        return "Cell=" + isAlive;
+    }
 }
